@@ -3,5 +3,5 @@
    tasks:
     - name: yum installation
       yum:
-       - name: http
-         state: present
+       name: http
+       state: present
